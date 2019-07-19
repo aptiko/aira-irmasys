@@ -33,7 +33,7 @@
           <ul class="dropdown-menu" role="menu">
             <li><a href="{% url 'home' user.username %}"  rel="nofollow"><i class="glyphicon glyphicon-leaf"></i> {% trans "My Fields" %}</a> </li>
             {% get_current_language as LANGUAGE_CODE %}
-            {% if LANGUAGE_CODE = 'el' %}
+            {% if LANGUAGE_CODE == 'el' %}
                 <li><a href="http://www.irrigation-management.eu/63-irmasys-support-gr" target="_blank" rel="nofollow"><i class="glyphicon glyphicon-book"></i> {% trans "Support" %}</a></li>
             {% else %}
                 <li><a href="http://www.irrigation-management.eu/62-irmasys-support"  target="_blank" rel="nofollow"><i class="glyphicon glyphicon-book"></i> {% trans "Support" %}</a></li>
@@ -45,7 +45,7 @@
             {% endif %}
             <li><a href="{% url 'tools' %}"><i class="glyphicon glyphicon-wrench"></i> {% trans "Tools" %}</a></li>
             <li class="divider"></li>
-            <li><a href="{% url 'django.contrib.auth.views.logout' %}"> <i class="glyphicon glyphicon-log-out"></i> {% trans "Logout" %} </a></li>
+            <li><a href="{% url 'auth_logout' %}"> <i class="glyphicon glyphicon-log-out"></i> {% trans "Logout" %} </a></li>
           </ul>
         </li>
       </ul>
@@ -53,10 +53,10 @@
     {% else %}
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="{% url 'django.contrib.auth.views.login' %}" rel="nofollow"><i class="glyphicon glyphicon-off"></i> {% trans "Login" %}</a></li>
+        <li><a href="{% url 'auth_login' %}" rel="nofollow"><i class="glyphicon glyphicon-off"></i> {% trans "Login" %}</a></li>
         <li><a href="{% url 'registration_register' %}" rel="nofollow"><i class="glyphicon glyphicon-user"></i> {% trans "Register" %}</a></li>
-        <li><a href="{% url 'password_reset' %}" rel="nofollow"><i class="glyphicon glyphicon-lock"></i> {% trans "Lost password?" %}</a></li>
-        {% if LANGUAGE_CODE = 'el' %}
+        <li><a href="{% url 'auth_password_reset' %}" rel="nofollow"><i class="glyphicon glyphicon-lock"></i> {% trans "Lost password?" %}</a></li>
+        {% if LANGUAGE_CODE == 'el' %}
             <li><a href="http://www.irrigation-management.eu/63-irmasys-support-gr" target="_blank" rel="nofollow"><i class="glyphicon glyphicon-book"></i> {% trans "Support" %}</a></li>
         {% else %}
             <li><a href="http://www.irrigation-management.eu/62-irmasys-support"  target="_blank" rel="nofollow"><i class="glyphicon glyphicon-book"></i> {% trans "Support" %}</a></li>
