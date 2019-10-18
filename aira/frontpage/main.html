@@ -1,0 +1,23 @@
+{% extends 'aira/frontpage/main-default.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}IRMA System{% endblock %}
+
+{% block main_page %}
+  {% include "aira/frontpage/carousel.html" %}
+  {{ block.super }}
+{% endblock %}
+
+{% block extramap %}
+  <div class="row">
+    <div class="col-xs-4 text-left">
+      <a style="float: left;" class="btn btn-success btn-xs" target="_blank" href="http://system.irrigation-management.eu/"> {% trans "View Meteorogical Network Stations" %}</a> <br>
+    </div>
+    <div class="col-xs-4 text-center">
+    </div>
+    <div class="col-xs-4 text-right">
+      <a style="float: right;" class="btn btn-success btn-xs" target="_blank" href="http://ofidia.physics.uoi.gr/"> {% trans "Weather Forecast (ofidia.physics.uoi.gr)" %}</a>
+    </div>
+  </div>
+{% endblock %}

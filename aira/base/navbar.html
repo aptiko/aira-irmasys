@@ -1,0 +1,22 @@
+{% extends "aira/base/navbar-default.html" %}
+{% load static %}
+{% load i18n %}
+
+
+{% block support_link %}
+  {% get_current_language as LANGUAGE_CODE %}
+  {% if LANGUAGE_CODE == 'el' %}
+    <li><a href="http://www.irrigation-management.eu/63-irmasys-support-gr" target="_blank" rel="nofollow"><i class="glyphicon glyphicon-book"></i> {% trans "Support" %}</a></li>
+  {% else %}
+    <li><a href="http://www.irrigation-management.eu/62-irmasys-support"  target="_blank" rel="nofollow"><i class="glyphicon glyphicon-book"></i> {% trans "Support" %}</a></li>
+  {% endif %}
+{% endblock %}
+
+
+{% block navbar_brand %}
+  <a style="max-width:100px; margin-top: -13px;" class="navbar-brand" href="{% url 'welcome' %}">
+    <img src="{% static 'img/IRMA_SYSLogo.png' %}" width="210">
+  </a>
+{% endblock %}
+
+
