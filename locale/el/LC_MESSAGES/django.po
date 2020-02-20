@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-14 21:33+0200\n"
+"POT-Creation-Date: 2020-02-20 15:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,79 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: aira/albedo_maps.html:6
-msgid "Welcome "
-msgstr "Καλωσήρθατε"
-
-#: aira/index.html:39
-msgid "Previous"
-msgstr "Προηγούμενο"
-
-#: aira/index.html:43
-msgid "Next"
-msgstr "Επόμενο"
-
-#: aira/index.html:52
-msgid "View Meteorogical Network Stations"
-msgstr "Εμφάνιση Μετεωρολογικού Δικτύου"
-
-#: aira/index.html:57
-msgid "Weather Forecast (ofidia.physics.uoi.gr)"
-msgstr "Πρόβλεψη καιρού (ofidia.physics.uoi.gr)"
-
-#: base.html:29
-msgid "Welcome"
-msgstr "Καλωσήρθατε"
-
-#: base.html:30 base.html.py:65
-msgid "Forum"
-msgstr ""
-
-#: base.html:32
-msgid "Management"
-msgstr "Διαχείριση"
-
-#: base.html:34
-msgid "My Fields"
-msgstr "Τα Αγροτεμάχια μου"
-
-#: base.html:37 base.html.py:39 base.html.py:60 base.html.py:62
-msgid "Support"
-msgstr "Υποστήριξη"
-
-#: base.html:42 base.html.py:44
-msgid "Account"
-msgstr "Λογαριασμός"
-
-#: base.html:46
-msgid "Tools"
-msgstr "Μετατροπές"
-
-#: base.html:48
-msgid "Logout"
-msgstr "Έξοδος"
-
-#: base.html:56
-msgid "Login"
-msgstr "Είσοδος"
-
-#: base.html:57
-msgid "Register"
-msgstr "Εγγραφή"
-
-#: base.html:58
-msgid "Lost password?"
-msgstr "Αλλαγή συνθηματικού"
-
-#: base.html:64
-msgid "Try"
-msgstr "Δοκιμή"
-
-#: base.html:83
-msgid "Go"
-msgstr "Μετάβαση"
-
-#: base.html:104
+#: aira/base/main.html:19
 msgid ""
 "This web application aims in skills building and has been developed using as "
 "base the open software which is freely available as a deliverable of the "
@@ -102,13 +30,26 @@ msgstr ""
 "παραδοτέο του έργου ETCP GR-IT 2007-2013 IRMA ενώ αξιοποιεί μετεωρολογικά "
 "δεδομένα που διατίθενται ελεύθερα μέσω της πλατφόρμας openmeteo.org."
 
-#: base.html:108
-msgid "Follow us"
-msgstr "Ακολούθησε μας"
-
-#: base.html:122
-msgid "Terms of Use"
+#: aira/base/main.html:38
+msgid "Terms of use"
 msgstr "Όροι Χρήσης"
 
-#~ msgid "Maps from satellite images"
-#~ msgstr "Χάρτες από δορυφορικές εικόνες"
+#: aira/base/navbar.html:9 aira/base/navbar.html:11
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: aira/frontpage/carousel.html:35
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+#: aira/frontpage/carousel.html:39
+msgid "Next"
+msgstr "Επόμενο"
+
+#: aira/frontpage/main.html:13
+msgid "View meteorogical network stations"
+msgstr "Εμφάνιση μετεωρολογικού δικτύου"
+
+#: aira/frontpage/main.html:18
+msgid "Weather forecast (ofidia.physics.uoi.gr)"
+msgstr "Πρόβλεψη καιρού (ofidia.physics.uoi.gr)"
