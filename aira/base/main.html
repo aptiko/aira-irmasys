@@ -27,15 +27,18 @@
     </div>
     <hr>
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-xs-4">
         <p class="text-success">Copyright © 2016–2019 GAP</p>
       </div>
-      <div class="col-md-4">
-
+      <div class="col-xs-4 text-center">
+        {% include "aira/base/language_switcher.html" %}
       </div>
-      <div class="col-md-4">
-        <a style="float:right;padding-right: 20px;" href="http://www.goodagro.org/"><p>Goodagro.gr</p></a>
-        <a style="float:right;padding-right: 20px;" href="{% url 'terms' %}"><p>{% trans "Terms of use" %}</p></a>
+      <div class="col-xs-4 text-right">
+        <p>
+          <a href="{% url 'terms' %}">{% trans "Terms of use" %}</a>
+          |
+          <a href="http://www.goodagro.org/">Goodagro.gr</a>
+        </p>
       </div>
     </div>
   </div>
