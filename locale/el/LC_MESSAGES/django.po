@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-20 15:21+0200\n"
+"POT-Creation-Date: 2021-02-08 15:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,18 +38,14 @@ msgstr "Όροι Χρήσης"
 msgid "Support"
 msgstr "Υποστήριξη"
 
-#: aira/frontpage/carousel.html:35
-msgid "Previous"
-msgstr "Προηγούμενο"
-
-#: aira/frontpage/carousel.html:39
-msgid "Next"
-msgstr "Επόμενο"
-
 #: aira/frontpage/main.html:13
-msgid "View meteorogical network stations"
-msgstr "Εμφάνιση μετεωρολογικού δικτύου"
+msgid "Agrometeorological stations network"
+msgstr "Δίκτυο αγρομετεωρολογικών σταθμών"
 
-#: aira/frontpage/main.html:18
+#: aira/frontpage/main.html:16
+msgid "Data"
+msgstr "Δεδομένα"
+
+#: aira/frontpage/main.html:19
 msgid "Weather forecast (ofidia.physics.uoi.gr)"
 msgstr "Πρόβλεψη καιρού (ofidia.physics.uoi.gr)"
